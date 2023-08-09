@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: none;
     outline: none;
-    font-family: sans-serif;;
+    font-family: sans-serif;
 
 }
 body{
@@ -12,7 +12,9 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#000;
+    background:url('/static/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
  body h1{
     font-size: 70px;
